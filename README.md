@@ -30,7 +30,7 @@
   }
 </pre>
 
-##5. `babel`在项目里面一般不是单独去用的，因为项目里面还有`less`文件的编译，所以一般配合gulp或者webpack去使用
+##5. `babel`在项目里面一般不是单独去用的，因为项目里面还有`less`文件的编译，所以一般配合`gulp`或者`webpack`去使用
 #### `babel+gulp`的使用
 1. 需要在根目录下面新建gulpfile.js文件
 2. `npm install gulp gulp-babel --save`安装gulp和gulp-babel
