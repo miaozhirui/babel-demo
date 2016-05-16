@@ -13,7 +13,7 @@
 
 ##3. 项目根目录新建`.babelrc`文件，里面放入配置文件
 1. 预设presets是一些插件的组合，比如`babel-preset-2015`
-2. 如果需要支持es6语法的话，先安装`npm install babel-preset-2015 --save-dev` 然后在`presets`添加`es2015`
+2. 如果需要支持es6语法的话，先安装`npm install babel-preset-es2015 --save-dev` 然后在`presets`添加`es2015`
 3. plugins插件,babel6.0以上做了调整，bable都是通过plugin来编译代码的
 
 <pre>
